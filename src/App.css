@@ -1,0 +1,19 @@
+/* index.css or App.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* App.css */
+.container-fluid {
+    height: calc(20vh - 20px); /* Box 컴포넌트의 높이에 맞춰서 조정 */
+    width: 100%; /* 필요한 경우, Box 컴포넌트의 너비에 맞춰서 조정 */
+    box-sizing: border-box; /* 패딩과 테두리가 높이와 너비에 포함되도록 설정 */
+    /* 추가적으로 필요한 스타일링 */
+  }
+
+/* 게이지차트 텍스트 제거 */
+#gauge-chart1 text {
+  display: none;
+}

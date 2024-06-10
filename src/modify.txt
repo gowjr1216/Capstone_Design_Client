@@ -1,0 +1,16 @@
+1. mainPage 작성
+메인화면에서 섹션으로 넘어갈 때, 로그인 창 호출
+로그인이 되지 않으면 섹션 호출 X
+
+2. chatPage 에서 개,고양이 식별 / 부위 식별
+(채팅 X, 채팅화면은 필요)
+
+3. 로그인 창 서버 연결
+console로 되어있는 email과 password
+=>  const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+형식으로 담아서 서버로 보내기
+
+4. 왼쪽 위 로고
+
+5. 도움말 페이지
